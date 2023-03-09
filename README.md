@@ -15,9 +15,4 @@ Each order item can be charged the following fees:
 * service fee (float): 3% of the item price or $1.50, whichever is greater
 * fulfillment fee (float):  derived by summing all the dimension attributes and applying the following table:
 
-Value	Charge
-<10	$1.20
-<20	$2.50
-<30	$3.73
-<40	$4.92
->=41	$7.12
+Value	Charge [<10	$1.20, <20	$2.50, <30	$3.73, <40	$4.92, >=41	$7.12]
